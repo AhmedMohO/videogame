@@ -2053,7 +2053,7 @@ ul {
 
     .sh2 .sh2_t1,
     .sh2 .sh2_t2 {
-        font-size: 14px;
+    font-size: 18px;
     }
 }
 
@@ -2084,6 +2084,12 @@ form {
     }
 }
 
+@media (max-width: 768px) {
+    .i1 {
+    height: 40px;
+    }
+}
+
 .i2 {
     border-radius: 30px;
     background-color: var(--secondary-color);
@@ -2100,15 +2106,10 @@ form {
     cursor: pointer;
 }
 
-@media (max-width: 992px) {
-    .scontent_button {
-        padding: 13px 6px;
-    }
-}
-
 @media (max-width: 768px) {
-    .scontent_button {
-        padding: 7px 6px;
+    .i2 {
+    width: 95px;
+    font-size: 18px;
     }
 }
 
