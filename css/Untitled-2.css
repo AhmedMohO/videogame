@@ -2106,6 +2106,13 @@ form {
     cursor: pointer;
 }
 
+@media (min-width: 1400px) {
+    .i2 {
+    border-radius: 35px;
+    width: 155px;
+    }
+}
+
 @media (max-width: 768px) {
     .i2 {
     width: 95px;
