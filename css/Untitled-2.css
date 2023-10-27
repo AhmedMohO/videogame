@@ -156,7 +156,7 @@ ul {
 
 .header .logo_text2 {
     color: var(--secondary-color);
-    font-size: 26px;
+    font-size: 25px;
     font-weight: 400;
     letter-spacing: 4.94px;
 }
@@ -237,9 +237,14 @@ ul {
     height: 27px;
     color: var(--main-color);
     text-align: right;
-    font-family: Tajawal;
     font-size: 16px;
     font-weight: 400;
+}
+
+@media (min-width: 1400px) {
+.links ul li a {
+    font-size: 21px;
+    }
 }
 
 .links ul:first-child {
