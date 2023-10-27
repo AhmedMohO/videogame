@@ -1689,8 +1689,8 @@ ul {
     background: var(--main-color);
     z-index: 1;
     position: relative;
-    margin-top: 18px;
-    padding: 10px;
+    margin-top: 14px;
+    padding: 15px;
 }
 
 .footer .fcontainer {
