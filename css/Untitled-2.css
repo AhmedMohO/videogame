@@ -2085,8 +2085,8 @@ form {
 }
 
 @media (max-width: 768px) {
-.sub_content .i1 {
-    height: 40px !important;
+    .sub_content .i1 {
+        height: 40px  !important;
     }
 }
 
