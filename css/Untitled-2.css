@@ -1590,8 +1590,6 @@ ul {
 .dback1::after {
     position: absolute;
     content: '';
-    /* left: 0;
-    top: 0; */
     background-image: url(../images/Vector\ \(1\).png);
     width: 80px;
     height: 80px;
@@ -2094,6 +2092,7 @@ form {
     font-size: 23px;
     font-weight: 400;
     border-style: none;
+    cursor: pointer;
 }
 
 @media (max-width: 992px) {
@@ -2106,6 +2105,10 @@ form {
     .scontent_button {
         padding: 7px 6px;
     }
+}
+
+.i2:hover {
+    transform: scale(1.06);
 }
 
 .sbutton_text {
