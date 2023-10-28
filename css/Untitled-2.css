@@ -1427,14 +1427,6 @@ ul {
     .services_pinfo2,
     .services_pinfo3 {
         width: 195px;
-    }
-}
-
-@media (max-width: 992px) {
-
-    .services_pinfo1,
-    .services_pinfo2,
-    .services_pinfo3 {
         margin: auto 10px;
     }
 }
@@ -1481,7 +1473,7 @@ ul {
     }
 }
 
-@media (max-width:769px) {
+@media (max-width:616px) {
 
     .services_pinfo1,
     .services_pinfo2,
@@ -1548,6 +1540,7 @@ ul {
     .design .design_content {
         height: 200px;
         align-items: flex-start;
+        margin-top: 125px;
     }
 }
 
@@ -2270,5 +2263,5 @@ form {
         font-size: 12px;
     }
 }
-
+/*©BadHunterN1(AhmedMoh)*/
 /* End Footer Section */
