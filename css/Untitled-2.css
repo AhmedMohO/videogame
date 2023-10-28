@@ -1727,6 +1727,14 @@ ul {
     text-transform: capitalize;
 }
 
+@media (max-width: 1400px) {
+
+    .sh2 .sh2_t1,
+    .sh2 .sh2_t2 {
+    font-size: 28px;
+    }
+}
+
 @media (max-width: 768px) {
 
     .sh2 .sh2_t1,
