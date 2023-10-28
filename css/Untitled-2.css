@@ -2066,6 +2066,12 @@ form {
     gap: 6.973px;
 }
 
+@media (max-width: 1400px) {
+    .footer .flogo_text {
+        width: 190px;
+    }
+}
+
 .footer .flogo_text1 {
     color: #FFF;
     font-size: 29px;
@@ -2102,7 +2108,7 @@ form {
 
 @media (max-width: 1200px) {
     .footer .flogo_text2 {
-        font-size: 14px;
+        font-size: 18px;
     }
 }
 
