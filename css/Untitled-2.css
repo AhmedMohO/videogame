@@ -1910,10 +1910,15 @@ form {
 
 @media (min-width: 1400px) {
     .cp2 {
-        margin-right: 0px;
         height: 50px;
         width: 50px;
         font-size: 26px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cp2 {
+        margin-right: 0px;
     }
 }
 
