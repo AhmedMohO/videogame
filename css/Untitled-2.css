@@ -1825,7 +1825,6 @@ form {
 
 @media (max-width: 768px) {
     .ccontent {
-        align-items: flex-end;
         flex-direction: column-reverse;
     }
 }
@@ -1911,6 +1910,7 @@ form {
 
 @media (min-width: 1400px) {
     .cp2 {
+        margin-right: 0px;
         height: 50px;
         width: 50px;
         font-size: 26px;
@@ -1977,12 +1977,12 @@ form {
     z-index: 1;
     position: relative;
     margin-top: 14px;
-    padding: 18px 0;
+    padding: 12px 0;
 }
 
 .footer .fcontainer {
     display: flex;
-    padding: 20px 254px;
+    padding: 20px;
     justify-content: center;
     align-items: center;
     max-height: 105px;
