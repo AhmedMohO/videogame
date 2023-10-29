@@ -1993,7 +1993,7 @@ form {
         display: flex;
         padding: 0 0;
         justify-content: space-between;
-        max-height: 152px;
+        max-height: 125px;
         align-items: center;
         flex-direction: row;
     }
