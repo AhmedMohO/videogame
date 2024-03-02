@@ -474,8 +474,7 @@ header:first-of-type .iside {
 
 .r1 {
     flex-wrap: nowrap;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
+    overflow-x: hidden;
     /* transition: 0.5s; */
     scroll-behavior: smooth;
     user-select: none;
@@ -484,10 +483,6 @@ header:first-of-type .iside {
 .r1 .no-transition {
     transition: 0.5s;
     scroll-behavior: auto;
-}
-
-.r1::-webkit-scrollbar {
-    display: none;
 }
 
 .r2 {
