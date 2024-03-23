@@ -465,6 +465,7 @@ input::after {
 @media (max-width: 992px) {
     .ltitle p {
         width: 100%;
+        padding-bottom: 20px;
     }
 }
 
