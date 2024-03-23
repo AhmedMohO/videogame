@@ -1090,6 +1090,7 @@ footer a i:hover {
 .timer .time {
     display: flex;
     justify-content: space-around;
+    gap:20px;
     width: 100%;
 }
 
@@ -1106,6 +1107,17 @@ footer a i:hover {
     gap: 20px;
     flex-direction: column;
     align-items: center;
+}
+
+@media (max-width: 480px) {
+      .weeks,
+      .days,
+      .hrs,
+      .min,
+      .sec {
+    gap: 4px;
+  }
+
 }
 
 .weeks span,
