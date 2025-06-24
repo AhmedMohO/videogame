@@ -50,7 +50,7 @@ const swiper = new Swiper('.swiper', {
     }
 });
 
-let countDownDate = new Date("Jun 23, 2025 11:59:59").getTime();
+let countDownDate = new Date("Jul 2, 2025 11:59:59").getTime();
 
 let counter = setInterval(() => {
     let dateNow = new Date().getTime();
